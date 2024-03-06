@@ -1,0 +1,54 @@
+body {
+    font-family: "Outfit", sans-serif;
+}
+.pozadina {
+    height: 100vh;
+    background-color: #d5e1ef;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#qrkod {
+    background-color: #ffffff;
+    border-radius: 20px;
+    width: 320px;
+    height: 497px;
+    text-align: center;
+    padding-top: 14px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#qrkod img {
+    height: 288px;
+    width: 288px;
+    border-radius: 10px;
+}
+
+.text {
+    width: 288px;
+    height: 129px;
+    margin-top: 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#naslov {
+    font-size: 22px;
+    font-weight: 700;
+    margin-bottom: 16px;
+    width: 288px;
+    height: 56px;
+}
+
+#podtekst {
+    font-size: 15px;
+    letter-spacing: 0.19px;
+    width: 256px;
+    height: 57px;
+    color: #979797;
+    font-weight: 400;
+}
